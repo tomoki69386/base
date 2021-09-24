@@ -16,7 +16,7 @@ var package = Package(
     .package(
       url: "https://github.com/pointfreeco/swift-composable-architecture.git",
       .exact("0.28.1")
-    ),
+    )
   ],
   targets: [
     .target(name: "AppFeature")
