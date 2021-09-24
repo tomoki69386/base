@@ -1,4 +1,4 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.3
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -6,8 +6,8 @@ import PackageDescription
 var package = Package(
   name: "App",
   platforms: [
-    .macOS(SupportedPlatform.MacOSVersion.v12),
-    .iOS(SupportedPlatform.IOSVersion.v15),
+    .macOS(SupportedPlatform.MacOSVersion.v11),
+    .iOS(SupportedPlatform.IOSVersion.v14),
   ],
   products: [
     .library(name: "AppFeature", targets: ["AppFeature"])
